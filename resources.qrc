@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/bar-chart-line.svg</file>
+        <file>icons/building-fill.svg</file>
+        <file>icons/columns-gap.svg</file>
+        <file>icons/door-open-fill.svg</file>
+        <file>icons/fork-knife.svg</file>
+        <file>icons/people.svg</file>
+        <file>icons/save.svg</file>
+        <file>icons/ChatGPT Image 12 juin 2026, 17_47_24.png</file>
+        <file>icons/menu.svg</file>
+        <file>icons/xmark-solid-full.svg</file>
+        <file>icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>icons/account-school.svg</file>
+        <file>icons/account-hard-hat-outline.svg</file>
+        <file>icons/door-closed-solid-full.svg</file>
+        <file>icons/dining_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>icons/door-open.svg</file>
+        <file>icons/finance.svg</file>
+        <file>icons/office-building.svg</file>
+        <file>icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</file>
+        <file>icons/ChatGPT Image 18 juin 2026, 23_27_51.png</file>
+        <file>icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
