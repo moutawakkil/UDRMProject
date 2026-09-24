@@ -1,0 +1,3824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>939</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_16">
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);</string>
+        </property>
+        <widget class="QWidget" name="layoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>6</y>
+           <width>42</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+font: 30pt &quot;8514oem&quot;;
+
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="resources.qrc">:/icons/icons/ChatGPT Image 12 juin 2026, 17_47_24.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="dashbooard_3">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/columns-gap.svg</normaloff>:/icons/icons/columns-gap.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="students_1">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/people.svg</normaloff>:/icons/icons/people.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="worker_1">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/account-hard-hat-outline.svg</normaloff>:/icons/icons/account-hard-hat-outline.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rooms_1">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/door-open-fill.svg</normaloff>:/icons/icons/door-open-fill.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="retaurant_1">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/fork-knife.svg</normaloff>:/icons/icons/fork-knife.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="report_1">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/bar-chart-line.svg</normaloff>:/icons/icons/bar-chart-line.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="save_1">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/save.svg</normaloff>:/icons/icons/save.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>160</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(227, 227, 227);
+color: rgb(0, 0, 0);
+font: 600 9pt &quot;Cascadia Mono SemiBold&quot;;</string>
+        </property>
+        <widget class="QWidget" name="layoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>6</y>
+           <width>157</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+font: 30pt &quot;8514oem&quot;;
+
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="resources.qrc">:/icons/icons/ChatGPT Image 12 juin 2026, 17_47_24.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="dashbooard_2">
+            <property name="styleSheet">
+             <string notr="true">
+QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>      Dashboard</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/columns-gap.svg</normaloff>:/icons/icons/columns-gap.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="students_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>     Students  </string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/people.svg</normaloff>:/icons/icons/people.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="worker_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>     Workers</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/account-hard-hat-outline.svg</normaloff>:/icons/icons/account-hard-hat-outline.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rooms_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>     Rooms     </string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/door-open-fill.svg</normaloff>:/icons/icons/door-open-fill.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="restaurant_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>     Restaurant</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/fork-knife.svg</normaloff>:/icons/icons/fork-knife.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="report_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>    Report    </string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/bar-chart-line.svg</normaloff>:/icons/icons/bar-chart-line.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="save_2">
+            <property name="styleSheet">
+             <string notr="true">QPushButton:checked{
+background-color:rgb(0, 170, 255);
+border-radus:3px;l }</string>
+            </property>
+            <property name="text">
+             <string>     Save     </string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/icons/save.svg</normaloff>:/icons/icons/save.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(181, 213, 235);</string>
+        </property>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>681</width>
+           <height>455</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="widget_4" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>600</width>
+              <height>50</height>
+             </size>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <item>
+                <widget class="QPushButton" name="pushButton">
+                 <property name="maximumSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border-color: rgb(0, 0, 0);
+selection-color: rgb(255, 170, 0);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resources.qrc">
+                   <normaloff>:/icons/icons/menu.svg</normaloff>:/icons/icons/menu.svg</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="styleSheet">
+                  <string notr="true">font: 700 11pt &quot;Arial Rounded MT&quot;;
+color: rgb(0, 0, 0);
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Menu</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Orientation::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Policy::Expanding</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>16777215</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>700</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(181, 213, 235);
+
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <widget class="QWidget" name="dashboard">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>700</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <widget class="QLabel" name="label_4">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);</string>
+              </property>
+              <property name="text">
+               <string>   DashBoard</string>
+              </property>
+             </widget>
+             <widget class="QGroupBox" name="dormiteoryOverviewGBox">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>90</y>
+                <width>211</width>
+                <height>171</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+              </property>
+              <property name="title">
+               <string>Dormitory Overview</string>
+              </property>
+              <widget class="QWidget" name="layoutWidget_5">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>171</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <item>
+                   <widget class="QLabel" name="label_36">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>Blocks:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_37">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>Floors:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="rooms_4">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>Total Capacity </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="rooms_3">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>Current Occupancy </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_39">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>Available rooms</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_10">
+                  <item>
+                   <widget class="QLabel" name="Blocks">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="floors">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="TotalCapacity">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="Currentoccurncy">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="availableRoo">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="layoutWidget_6">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>30</y>
+                <width>533</width>
+                <height>55</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,1,1,1,1">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_7">
+                   <item>
+                    <widget class="QLabel" name="label_22">
+                     <property name="autoFillBackground">
+                      <bool>false</bool>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">image: url(:/icons/icons/account-school.svg);
+background-color: rgb(255, 255, 255);
+</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="totalStud">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(0, 0, 0);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_24">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Total Students</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignmentFlag::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_6">
+                   <item>
+                    <widget class="QLabel" name="label_19">
+                     <property name="styleSheet">
+                      <string notr="true">image: url(:/icons/icons/account-hard-hat-outline.svg);
+background-color: rgb(255, 255, 255);
+</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="totalWork">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(0, 0, 0);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_21">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Total Workers</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignmentFlag::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <item>
+                    <widget class="QLabel" name="label_25">
+                     <property name="styleSheet">
+                      <string notr="true">image: url(:/icons/icons/building-fill.svg);
+background-color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="totalRooms">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(0, 0, 0);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_27">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;
+   ;</string>
+                   </property>
+                   <property name="text">
+                    <string>Total Rooms</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignmentFlag::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_3">
+                   <item>
+                    <widget class="QLabel" name="label_10">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+image: url(:/icons/icons/door-open.svg);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="availableRooms">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(0, 0, 0);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_12">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;
+
+ padding: 4px;</string>
+                   </property>
+                   <property name="text">
+                    <string>Available Rooms</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignmentFlag::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_14">
+                   <item>
+                    <widget class="QLabel" name="label_16">
+                     <property name="styleSheet">
+                      <string notr="true">image: url(:/icons/icons/finance.svg);
+background-color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <item>
+                      <widget class="QLabel" name="occupancyRate">
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(0, 0, 0);</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_15">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;
+
+ padding: 4px;</string>
+                   </property>
+                   <property name="text">
+                    <string>Occupancy Rate</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignmentFlag::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QGroupBox" name="restaurantTodayGBox">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>90</y>
+                <width>291</width>
+                <height>141</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+              </property>
+              <property name="title">
+               <string>Restaurant Today</string>
+              </property>
+              <widget class="QWidget" name="layoutWidget_7">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>211</width>
+                 <height>120</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="1,1">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_12">
+                  <item>
+                   <widget class="QLabel" name="label_41">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>   Breakfast served</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_40">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>   :Lunch served</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_45">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>   Dinner served</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="Blocks_3">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>   Blocked Students  </string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="Blocks_4">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>    Active Reservations    </string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_13">
+                  <item>
+                   <widget class="QLabel" name="BreakfestServed">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="lunchServed">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="dinnerServed">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="BlockedStudents">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="ActiveReservations">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(0, 0, 0);
+font: 600 11pt &quot;Segoe UI&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="QuikActionsGBox">
+              <property name="geometry">
+               <rect>
+                <x>230</x>
+                <y>240</y>
+                <width>291</width>
+                <height>61</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Quick Actions</string>
+              </property>
+              <widget class="QWidget" name="layoutWidget_8">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>281</width>
+                 <height>42</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="1,1">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_4">
+                  <item>
+                   <widget class="QPushButton" name="AddStudentpushB">
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Add Student</string>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="resources.qrc">
+                      <normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="autoExclusive">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="1">
+                  <item>
+                   <widget class="QPushButton" name="AssignStudentpushB">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>Assign Student</string>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="resources.qrc">
+                      <normaloff>:/icons/icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>31</width>
+                      <height>17</height>
+                     </size>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="autoExclusive">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="layoutWidget_9">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>279</y>
+                <width>211</width>
+                <height>22</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_15">
+               <item>
+                <widget class="QLabel" name="dateLabel">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="timeLabel">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="student">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <widget class="QLabel" name="label_5">
+              <property name="geometry">
+               <rect>
+                <x>-10</x>
+                <y>0</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);</string>
+              </property>
+              <property name="text">
+               <string>   Students</string>
+              </property>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>30</y>
+                <width>677</width>
+                <height>261</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_15">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_18">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_17">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_13">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">
+border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Search</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="searchForStudent">
+                     <property name="styleSheet">
+                      <string notr="true">border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+    border: 1px solid #1E3A8A;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="AddStudentpushB_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 2px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Add Student</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="RemoveStudent">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+
+    border: 2px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Remove Student</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/xmark-solid-full.svg</normaloff>:/icons/icons/xmark-solid-full.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>31</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="AssignStudentpushB_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+
+    border: 2px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Assign Student</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>31</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="TransferStudentpushB_3">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="layoutDirection">
+                    <enum>Qt::LayoutDirection::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+
+    border: 2px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Transfer Student</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>31</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_19">
+                   <item>
+                    <widget class="QLabel" name="label_20">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>100</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Filter by :</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_11">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string>    Status</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="filterStatus">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_14">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string>Block</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="FilterBlocks">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_17">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string>University</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="filterUniversity">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_18">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string>Year</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="FilterYear">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QTableWidget" name="StudentTable">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+</string>
+                   </property>
+                   <property name="autoScroll">
+                    <bool>true</bool>
+                   </property>
+                   <column>
+                    <property name="text">
+                     <string>ID</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>FirstName</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Last Name</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>year</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>university</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>status</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>room</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="report">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <widget class="QLabel" name="label_8">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>10</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);</string>
+              </property>
+              <property name="text">
+               <string>report</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="rooms">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <widget class="QLabel" name="label_7">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>10</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);</string>
+              </property>
+              <property name="text">
+               <string> Rooms</string>
+              </property>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>30</y>
+                <width>641</width>
+                <height>61</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_16">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_22">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_20">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_23">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">
+border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Search</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="searchRoom">
+                     <property name="styleSheet">
+                      <string notr="true">border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+    border: 1px solid #1E3A8A;</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Orientation::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="AssignStudentpushB_3">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+
+    border: 2px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Assign Student</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/check_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>31</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="TransferStudentpushB_4">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Transfer Student</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>31</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_21">
+                 <item>
+                  <widget class="QLabel" name="label_26">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>100</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Filter by :</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_29">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>Block</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="filterByBlock">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_28">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>Floor</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="filterFloor">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_30">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>Room</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="filterRooms">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QTableWidget" name="RoomsTable">
+              <property name="geometry">
+               <rect>
+                <x>70</x>
+                <y>110</y>
+                <width>341</width>
+                <height>192</height>
+               </rect>
+              </property>
+              <column>
+               <property name="text">
+                <string>room ID</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>capacity</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>students</string>
+               </property>
+              </column>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="RestaurntMenu">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>700</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>354</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_27">
+               <item>
+                <widget class="QPushButton" name="restaurantMenu_2">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Restaurant Menu</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mealsdistribution_2">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Meal Distribution</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>30</y>
+                <width>671</width>
+                <height>291</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_32">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_26">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_19">
+                   <item>
+                    <widget class="QLabel" name="label_34">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(0, 91, 209);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0)</string>
+                     </property>
+                     <property name="text">
+                      <string>breakfest</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="breakfestMenu">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: rgb(16, 2, 173);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+</string>
+                     </property>
+                     <property name="autoScroll">
+                      <bool>true</bool>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>item Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>category</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_20">
+                   <item>
+                    <widget class="QLabel" name="label_35">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(0, 91, 209);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0)</string>
+                     </property>
+                     <property name="text">
+                      <string> lunch</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="lunchMenu">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: rgb(16, 2, 173);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+</string>
+                     </property>
+                     <property name="autoScroll">
+                      <bool>true</bool>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>item Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>category</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_21">
+                   <item>
+                    <widget class="QLabel" name="label_38">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(0, 91, 209);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0)</string>
+                     </property>
+                     <property name="text">
+                      <string> dinner</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="dinnerMenu">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: rgb(16, 2, 173);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+</string>
+                     </property>
+                     <property name="autoScroll">
+                      <bool>true</bool>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>item Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>category</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_22">
+                 <item>
+                  <widget class="QPushButton" name="removeitem">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>remove Item</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/xmark-solid-full.svg</normaloff>:/icons/icons/xmark-solid-full.svg</iconset>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="edititem">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>edit Item</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="additem">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Add Item</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resources.qrc">
+                     <normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="clearmenu">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>clear menu</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="mealsDistribution">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <widget class="QWidget" name="layoutWidget_14">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>354</width>
+                <height>30</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_28">
+               <item>
+                <widget class="QPushButton" name="restaurantMenu">
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);
+}
+
+
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 127);
+    color: white;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Restaurant Menu</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mealsdistribution">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);
+}
+
+
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 127);
+    color: white;
+}
+</string>
+                 </property>
+                 <property name="text">
+                  <string>Meal Distribution</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>30</y>
+                <width>652</width>
+                <height>314</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_27">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_30">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_25">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_29">
+                     <item>
+                      <widget class="QLabel" name="label_52">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>100</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(0, 91, 209);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0)</string>
+                       </property>
+                       <property name="text">
+                        <string>History</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="label_42">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>100</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+
+</string>
+                       </property>
+                       <property name="text">
+                        <string>Filter by :</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="label_43">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>meal</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QComboBox" name="filterBymeals">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="label_44">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>status</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QComboBox" name="filterstatus">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="label_46">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>date</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QComboBox" name="filterdate">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <widget class="QTableWidget" name="history">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: rgb(16, 2, 173);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+
+</string>
+                     </property>
+                     <property name="autoScroll">
+                      <bool>true</bool>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>Student Id</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>meal</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>status</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>date</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_24">
+                   <item>
+                    <widget class="QPushButton" name="reserve">
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>Reserve</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="cancelReservation">
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>cancel reservation</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="takemeal">
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>take meal</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="showStatus">
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>show status</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="closeMPeriod">
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+ padding: 8px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>close the meal Period</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_26">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_31">
+                   <item>
+                    <widget class="QLabel" name="label_51">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>100</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(0, 91, 209);
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0)</string>
+                     </property>
+                     <property name="text">
+                      <string>OveLeft Meals</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_47">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>100</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Filter by :</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_48">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string>meal</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="filterOleftbymeals">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_50">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string>date</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="filterOleftbydate">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QTableWidget" name="overlefttable">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: rgb(16, 2, 173);
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+
+</string>
+                   </property>
+                   <property name="autoScroll">
+                    <bool>true</bool>
+                   </property>
+                   <row>
+                    <property name="text">
+                     <string>date</string>
+                    </property>
+                   </row>
+                   <row>
+                    <property name="text">
+                     <string>meal</string>
+                    </property>
+                   </row>
+                   <row>
+                    <property name="text">
+                     <string>quantity</string>
+                    </property>
+                   </row>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="workers">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <widget class="QLabel" name="label_6">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>151</width>
+                <height>20</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;
+background-color: rgb(172, 201, 255);</string>
+              </property>
+              <property name="text">
+               <string> Workers</string>
+              </property>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>20</y>
+                <width>621</width>
+                <height>261</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_18">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_23">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_24">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QLabel" name="label_31">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">
+border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+</string>
+                       </property>
+                       <property name="text">
+                        <string>Search</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="searchworker">
+                       <property name="styleSheet">
+                        <string notr="true">border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+    border: 1px solid #1E3A8A;</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_3">
+                     <property name="orientation">
+                      <enum>Qt::Orientation::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="addworker">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+
+    border: 2px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>Add Worker</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="resources.qrc">
+                       <normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>31</width>
+                       <height>17</height>
+                      </size>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="removeworker">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+
+
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>remove Worker</string>
+                     </property>
+                     <property name="icon">
+                      <iconset resource="resources.qrc">
+                       <normaloff>:/icons/icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/sync_alt_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+                     </property>
+                     <property name="iconSize">
+                      <size>
+                       <width>31</width>
+                       <height>17</height>
+                      </size>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_25">
+                   <item>
+                    <widget class="QLabel" name="label_32">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>100</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border-color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+background-color: rgb(202, 202, 202);
+
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Filter by :</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_33">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="text">
+                      <string> worker type</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="filterBytype">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(235, 235, 235);
+font: 8pt &quot;Microsoft JhengHei UI&quot;;
+color: rgb(0, 0, 0);
+    border: 1px solid #1E3A8A;
+border-color: rgb(0, 0, 0);</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="wokersTable">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QTableWidget::item:selected {
+    background-color: rgb(148, 210, 233);
+    color: black;
+}
+QTableWidget {
+    background-color: white;
+    gridline-color: white;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+QHeaderView::section {
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+</string>
+                 </property>
+                 <property name="autoScroll">
+                  <bool>true</bool>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>ID</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>FirstName</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Last Name</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>worker Type</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget_3</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>246</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget_2</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>51</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

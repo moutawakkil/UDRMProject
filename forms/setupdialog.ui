@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetupDialog</class>
+ <widget class="QDialog" name="SetupDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>378</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>340</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 127);
+font: 9pt &quot;8514oem&quot;;</string>
+   </property>
+   <property name="text">
+    <string> UDRMS - Dormitory Initial Setup </string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>50</y>
+     <width>411</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="blocks">
+    <widget class="QTableWidget" name="blocksTableW">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>110</y>
+       <width>151</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Block ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Floors Number</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="generateblockspushButton">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Generate Blocks</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="nexttofloors">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>250</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>next</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string> Number of Blocks:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="blocksspinBox">
+        <property name="styleSheet">
+         <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="floor">
+    <widget class="QWidget" name="layoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string> Number of Floors</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="floorsspinBox">
+        <property name="styleSheet">
+         <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="generatefloors">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Generate Floors</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="floorsTableW">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>110</y>
+       <width>151</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Floor number</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>rooms number</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="backtonextfloor">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>250</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>back</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="nexttorooms">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>250</y>
+       <width>47</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>next</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="blockIDFloorNumb_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>107</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="rooms">
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string> Number of Rooms</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="roomsNumspinBox">
+        <property name="styleSheet">
+         <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="generateRooms">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Generate Rooms</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="roomsTableW">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>110</y>
+       <width>151</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>room number</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>room capacity</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="floorNumber">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>107</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backToFloors">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>250</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+
+    border: 1px solid #1E3A8A;
+    border-radius: 10px;
+    background-color: white;
+    color: #1E3A8A;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}
+
+QPushButton:hover {
+    background-color: rgb(148, 210, 233);
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 170, 0);
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>back</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="extrapage"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>SetupDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>SetupDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
